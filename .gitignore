@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+backend/.venv/
+
+# Environment and secrets
+.env
+*.env
+backend/.env
+!backend/.env.example
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.vite/
+
+# Runtime caches and browser profiles
+backend/.browser_profile/
+backend/.rag_chroma/
+backend/.scrapling/
+backend/.pytest_cache/
+
+# Generated outputs
+outputs/
+backend/outputs/
+reports/*.docx
+reports/*.pdf
+backend/reports/*.docx
+backend/reports/*.pdf
+
+# Local office temp files
+~$*.docx
+~$*.xlsx
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.codex/

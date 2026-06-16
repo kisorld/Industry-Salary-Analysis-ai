@@ -221,4 +221,4 @@ python tests/run_tests.py
 python run_pipeline.py
 ```
 
-`run_pipeline.py` 会读取样例数据，执行 pandas 清洗统计、AI 报告生成和 Word 导出。
+`run_pipeline.py` 会读取样例数据，执行 pandas 清洗统计、AI 报告生成和 Word 导出
